@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+
+    <!-- 1. Задача «Эхо» -->
+    <div>
+        <h2>1. Эхо</h2>
+        <form action="script.php" method="post">
+            <input type="text" name="text" placeholder="Введите текст">
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+
+    <!-- 2. Сложение двух чисел -->
+    <div>
+        <h2>2. Сложение двух чисел</h2>
+        <form action="script.php" method="post">
+            <input type="number" name="num1" placeholder="Первое число">
+            <input type="number" name="num2" placeholder="Второе число">
+            <button type="submit">Сложить</button>
+        </form>
+    </div>
+
+    <!-- 3. Простая анкета «Приветствие» -->
+    <div>
+        <h2>3. Анкета «Приветствие»</h2>
+        <form action="script.php" method="post">
+            <input type="text" name="name" placeholder="Имя">
+            <input type="number" name="year" placeholder="Год рождения">
+            <input type="radio" name="gender" value="male"> Мужской
+            <input type="radio" name="gender" value="female"> Женский
+            <button type="submit">Отправить</button>
+        </form>
+    </div>
+
+    <!-- 4. Магический конвертер валют -->
+    <div>
+        <h2>4. Конвертер валют</h2>
+        <form action="script.php" method="post">
+            <input type="number" name="amount" placeholder="Сумма в рублях">
+            <select name="currency">
+                <option value="USD">USD</option>
+                <option value="EUR">EUR</option>
+                <option value="CNY">CNY</option>
+            </select>
+            <button type="submit">Конвертировать</button>
+        </form>
+    </div>
+
+    <!-- 5. Смена фона (Цвет настроения) -->
+    <div>
+        <h2>5. Цвет настроения</h2>
+        <form action="script.php" method="post">
+            <select name="color">
+                <option value="red">Красный</option>
+                <option value="green">Зелёный</option>
+                <option value="blue">Синий</option>
+            </select>
+            <button type="submit">Применить</button>
+        </form>
+    </div>
+
+    <!-- 6. Проверка на «Секретное слово» -->
+    <div>
+        <h2>6. Секретное слово</h2>
+        <form action="script.php" method="post">
+            <input type="text" name="password" placeholder="Введите секретное слово">
+            <button type="submit">Проверить</button>
+        </form>
+    </div>
+
+</body>
+</html>
